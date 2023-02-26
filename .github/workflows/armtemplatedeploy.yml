@@ -26,6 +26,7 @@ jobs:
         uses: Azure/arm-deploy@v1
         with:
           scope: subscripiton
+          resourceGroupName: rg-githubacions
           subscriptionId: 044e018a-25e2-406c-ac8e-c38e9eeb7f60
           region: East US
           template: ./armtemplates/resoucegroup.json
